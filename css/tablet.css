@@ -1,0 +1,130 @@
+
+/* HOME */
+
+.hero {
+    background-color: #f9f9f9;
+}
+
+.hero-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 5px;
+    padding: 25px;
+    padding-top: 130px ;
+}
+
+.hero-row-img img {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.hero-row-title {
+    padding: 0;
+}
+
+.hero-text {
+    width: 100%;
+}
+.hero-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skills h5 {
+    margin-bottom: 30px;
+}
+
+/* ABOUT */
+
+.about-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.about-row-img img {
+    width: 350px;
+
+}
+
+.about-row-img {
+    margin: 0;
+}
+
+
+.about-row-title {
+    margin: 20px;
+}
+
+
+/* PORTFOLIO */
+
+.proyectos {
+    padding: 30px 0;
+}
+.proyectos-titulo {
+    text-align: center;
+}
+
+.proyectos-titulo h3 {
+    color: #6e61ca;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.proyectos-titulo h4 {
+    font-size: 1rem;
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 25rem;
+    flex-direction: column !important;
+
+}
+
+.card img {
+  object-fit: cover;
+}
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+footer h6 {
+    font-size: .8rem;
+    font-weight: 400;
+}

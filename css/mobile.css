@@ -44,7 +44,12 @@
 .skills {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
+}
+
+.skills-logo ul li{
+    width: 35px;
+    height: 35px;
 }
 
 .skills h5 {
@@ -109,7 +114,7 @@
 }
 
 .card {
-    width: 25rem;
+    width: 22rem;
     flex-direction: column !important;
 
 }
